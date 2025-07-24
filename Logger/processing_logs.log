@@ -434,23 +434,23 @@
 2025-06-14 17:20:20,541 <function RemoveHTMLTags.run at 0x000001D65153B9C0> finished.
 2025-06-14 17:20:20,541 run started.
 2025-06-14 17:20:20,541 <function RemoveSpecialChars.run at 0x000001D651570180> finished.
-2025-06-14 17:20:20,559 Не удалось загрузить стоп-слова для языка russian: name 'nltk' is not defined
+2025-06-14 17:20:20,559 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ russian: name 'nltk' is not defined
 2025-06-14 17:20:32,835 run started.
 2025-06-14 17:20:32,835 <function RemoveHTMLTags.run at 0x000001D65153B9C0> finished.
 2025-06-14 17:20:32,835 run started.
 2025-06-14 17:20:32,835 <function RemoveSpecialChars.run at 0x000001D651570180> finished.
 2025-06-14 17:20:32,835 run started.
 2025-06-14 17:20:32,836 <function HandleNumbers.run at 0x000001D6515705E0> finished.
-2025-06-14 17:20:32,838 Не удалось загрузить стоп-слова для языка russian: name 'nltk' is not defined
+2025-06-14 17:20:32,838 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ russian: name 'nltk' is not defined
 2025-06-14 17:20:35,963 run started.
 2025-06-14 17:20:35,964 <function HandleNumbers.run at 0x000001D6515705E0> finished.
-2025-06-14 17:20:35,966 Не удалось загрузить стоп-слова для языка russian: name 'nltk' is not defined
+2025-06-14 17:20:35,966 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ russian: name 'nltk' is not defined
 2025-06-14 17:20:47,667 run started.
 2025-06-14 17:20:47,667 <function HandleNumbers.run at 0x000001D6515705E0> finished.
-2025-06-14 17:20:47,669 Не удалось загрузить стоп-слова для языка russian: name 'nltk' is not defined
+2025-06-14 17:20:47,669 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ russian: name 'nltk' is not defined
 2025-06-14 17:20:51,498 run started.
 2025-06-14 17:20:51,499 <function HandleNumbers.run at 0x000001D6515705E0> finished.
-2025-06-14 17:20:51,501 Не удалось загрузить стоп-слова для языка russian: name 'nltk' is not defined
+2025-06-14 17:20:51,501 пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ russian: name 'nltk' is not defined
 2025-06-14 17:20:51,531 Loading dictionaries from C:\Users\nst\AppData\Local\Programs\Python\Python311\Lib\site-packages\pymorphy2_dicts_ru\data
 2025-06-14 17:20:51,554 format: 2.4, revision: 417127, updated: 2020-10-11T15:05:51.070345
 2025-06-14 17:23:36,507 run started.
@@ -1086,7 +1086,7 @@
 2025-06-18 12:24:04,466 info finished successfully
 <<<<<<< HEAD
 2025-06-18 17:48:22,573 run started
-2025-06-18 17:48:22,580 Error in run: Метод обнаружения выбросов 'iqr' не поддерживается
+2025-06-18 17:48:22,580 Error in run: пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 'iqr' пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 2025-06-18 17:48:26,069 run started
 2025-06-18 17:48:26,069 run_hampel started
 2025-06-18 17:48:26,070 run_hampel finished successfully
@@ -1108,7 +1108,7 @@
 2025-06-18 17:50:40,243 info started
 2025-06-18 17:50:40,243 info finished successfully
 2025-06-19 16:17:58,598 run started
-2025-06-19 16:17:58,602 Error in run: Метод обнаружения выбросов 'iqr' не поддерживается
+2025-06-19 16:17:58,602 Error in run: пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 'iqr' пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 2025-06-19 16:18:01,474 run started
 2025-06-19 16:18:01,474 run_hampel started
 2025-06-19 16:18:01,475 run_hampel finished successfully

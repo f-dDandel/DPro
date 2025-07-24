@@ -204,12 +204,15 @@ class DataProcessingApp(QMainWindow):
     
     def init_missing_tab(self):
         self.tab_missing = QWidget()
+        fill_group = QGroupBox("Заполнение пропусков")
+        fill_layout = QVBoxLayout()
         self.cb_num_strategy = QComboBox()
         self.cb_num_strategy.addItems(["mean", "median", "constant"])
         self.cb_cat_strategy = QComboBox()
         self.cb_cat_strategy.addItems(["mode", "constant"])
         self.le_fill_value = QLineEdit("NULL")
         self.le_fill_value.setPlaceholderText("Значение для 'constant'")
+        self.btn_drop_missing = QPushButton("Удалить строки с пропусками")
         self.btn_process_missing = QPushButton("Обработать пропуски")
         missing_layout = QVBoxLayout()
         missing_layout.addWidget(QLabel("Стратегия для чисел:"))
@@ -471,7 +474,25 @@ class DataProcessingApp(QMainWindow):
         self.btn_process_text.clicked.connect(self.process_text)
         self.btn_analyze_text.clicked.connect(self.analyze_text_data)
         self.cb_plot_type.currentTextChanged.connect(self.update_axis_visibility)
-    
+        self.btn_drop_missing.clicked.connect(self.drop_missing_rows)
+    def drop_missing_rows(self):
+        if self.current_data is not None:
+            try:
+                self.show_progress(True)
+                
+                # Получаем список столбцов для обработки (можно добавить выбор столбцов)
+                columns = None  # Обрабатываем все столбцы
+                
+                processor = HandleMissingValues(self.current_data)
+                self.current_data = processor.drop_missing_rows(columns)
+                
+                self.display_data()
+                self.save_state()
+                self.log_message(f"Удалено строк с пропусками: {len(processor.data) - len(self.current_data)}")
+            except Exception as e:
+                self.log_message(f"Ошибка удаления строк: {str(e)}", error=True)
+            finally:
+                self.show_progress(False)
     def update_plot_columns(self):
         """Обновляет список доступных столбцов для графиков"""
         if self.current_data is not None:

@@ -79,6 +79,16 @@ class HandleMissingValues:
 
         self.result = df
         return self.result
+    def drop_missing_rows(self, columns: list = None) -> pd.DataFrame:
+        """
+        Полное удаление строк с пропусками в указанных столбцах
+        """
+        df = self.data.copy()
+        if columns is None:
+            columns = df.columns
+        df = df.dropna(subset=columns)
+        self.result = df.reset_index(drop=True)
+        return self.result
     #@decorator
     def get_answ(self) -> pd.DataFrame:
         """

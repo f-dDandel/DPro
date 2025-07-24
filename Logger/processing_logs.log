@@ -1680,3 +1680,23 @@ LocalOutlierFactor does not accept missing values encoded as NaN natively. For s
 2025-06-19 17:20:00,860 run finished successfully
 2025-06-19 17:20:07,142 info started
 2025-06-19 17:20:07,142 info finished successfully
+2025-06-20 08:25:55,607 run started
+2025-06-20 08:25:55,614 run finished successfully
+2025-06-20 14:51:37,528 run started
+2025-06-20 14:51:37,531 run finished successfully
+2025-06-20 14:52:46,913 run started
+2025-06-20 14:52:46,914 run finished successfully
+2025-06-25 12:44:05,224 run started
+2025-06-25 12:44:05,240 run finished successfully
+2025-06-25 12:44:13,148 info started
+2025-06-25 12:44:13,148 info finished successfully
+2025-06-25 12:44:26,586 run started
+2025-06-25 12:44:26,593 run finished successfully
+2025-06-25 12:55:55,221 run started
+2025-06-25 12:55:55,221 run finished successfully
+2025-06-25 12:55:55,276 Error processing text: Unsupported input type
+2025-06-25 12:55:55,276 Normalization error: Unsupported input type
+2025-06-25 12:56:41,804 run started
+2025-06-25 12:56:41,805 run finished successfully
+2025-06-25 12:56:41,806 Error processing text: Unsupported input type
+2025-06-25 12:56:41,806 Normalization error: Unsupported input type
